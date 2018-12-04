@@ -59,3 +59,91 @@ header {
   margin-left: 10px;
   margin-right: 10px
 }
+
+.new-generation {
+  background-color: #f7f7f7;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.new-generation-icon {
+  width: 50px;
+  height: 42px;
+  background-image: url(images/NewGenerationIcon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.new-generation-title, .new-generation-text {
+  display: block;
+  color: #96999a;
+  font-size: 18px;
+  padding-top: 35px;
+  margin: 0 auto;
+  width: 1060px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.new-generation-title {
+  color: #353738;
+}
+
+.main-top-block {
+  display: flex;
+}
+
+.main-top-left-block {
+  width: 1067px;
+  height: 600px;
+  background-image: url(images/RedWheel.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.vintage-oliva {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  width: auto;
+}
+
+.vintage-oliva-icon {
+  background-image: url(images/VintageOlivaIcon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 41px;
+  height: 29px;
+  margin: 0 auto;
+}
+
+.vintage-oliva-title {
+  font-size: 18px;
+  color: #353738;
+  text-align: center;
+  padding-bottom: 26px;
+  padding-top: 27px;
+}
+
+.vintage-oliva-text {
+  font-size: 16px;
+  color: #96999a;
+  width: 400px;
+  text-align: justify;
+  margin: 0 auto;
+  line-height: 25px;
+}
+
+.vintage-oliva-line {
+  margin: 35px auto 0;
+  width: 50px;
+  color:#96999a;
+}
+
+.vintage-oliva-bike {
+  width: 533px;
+  height: 200px;
+  background-image: url(images/OlivaBike.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
