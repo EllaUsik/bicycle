@@ -60,6 +60,12 @@ header {
   margin-right: 10px
 }
 
+.home-page {
+  display: block;
+  width: 94px;
+  height: 85px;
+}
+
 .new-generation {
   background-color: #f7f7f7;
   padding-top: 140px;
