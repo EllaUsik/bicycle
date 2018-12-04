@@ -100,12 +100,24 @@ header {
   background-image: url(images/RedWheel.png);
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bike-logo {
+  width: 113px;
+  height: 118px;
+  background-image: url(images/BicycleCompanyLogo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .vintage-oliva {
   padding-top: 60px;
   padding-bottom: 50px;
   width: auto;
+  position: relative;
 }
 
 .vintage-oliva-icon {
@@ -146,4 +158,168 @@ header {
   background-image: url(images/OlivaBike.png);
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.angle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  transform: rotate(-45deg);
+  right: 246px;
+  bottom: -8px;
+}
+
+.main-middle-block {
+  display: flex;
+}
+
+.boriosa-block {
+  padding-top: 57px;
+  padding-bottom: 50px;
+  width: auto;
+  position: relative;
+}
+
+.boriosa-icon {
+  background-image: url(images/BoriosaIcon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+}
+
+.boriosa-title {
+  font-size: 18px;
+  color: #353738;
+  text-align: center;
+  padding-bottom: 26px;
+  padding-top: 27px;
+}
+
+.boriosa-text {
+  font-size: 16px;
+  color: #96999a;
+  width: 400px;
+  text-align: justify;
+  margin: 0 auto;
+  line-height: 25px;
+}
+
+.boriosa-line {
+  margin: 35px auto 0;
+  width: 50px;
+  color:#96999a;
+}
+
+.boriosa-bike {
+  width: 533px;
+  height: 200px;
+  background-image: url(images/BoriosaBike.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.main-middle-right-block {
+  width: 1067px;
+  height: 600px;
+  background-image: url(images/BikeNearRiver.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vintage-bike-logo {
+  width: 177px;
+  height: 152px;
+  background-image: url(images/VintageBikeLogo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main-bottom-block {
+  display: flex;
+}
+
+.block-1 {
+  display: flex;
+}
+
+.main-bottom-left-block {
+  width: 532px;
+  height: 600px;
+  background-image: url(images/RedBikeLeft.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-bikes-logo {
+  width: 208px;
+  height: 67px;
+  background-image: url(images/RedBikeLogo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hulot-block {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  width: auto;
+  position: relative;
+}
+
+.hulot-icon {
+  background-image: url(images/HulotIcon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+}
+
+.hulot-title {
+  font-size: 18px;
+  color: #353738;
+  text-align: center;
+  padding-bottom: 26px;
+  padding-top: 27px;
+}
+
+.hulot-text {
+  font-size: 16px;
+  color: #96999a;
+  width: 400px;
+  text-align: justify;
+  margin: 0 auto;
+  line-height: 25px;
+}
+
+.hulot-line {
+  margin: 35px auto 0;
+  width: 50px;
+  color:#96999a;
+}
+
+.hulot-bike {
+  width: 532px;
+  height: 200px;
+  background-image: url(images/HulotBike.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.main-bottom-right-block {
+  width: 534px;
+  height: 600px;
+  background-image: url(images/RedBikeRight.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
