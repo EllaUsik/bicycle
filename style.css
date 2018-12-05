@@ -180,6 +180,11 @@ header {
   display: flex;
 }
 
+.main-middle-left-block {
+  position: relative;
+  width: 533px;
+}
+
 .boriosa-block {
   padding-top: 57px;
   padding-bottom: 50px;
@@ -220,11 +225,11 @@ header {
 }
 
 .boriosa-bike {
-  width: 533px;
   height: 200px;
   background-image: url(images/BoriosaBike.png);
   background-repeat: no-repeat;
   background-size: contain;
+  bottom: 0;
 }
 
 .main-middle-right-block {
@@ -273,7 +278,7 @@ header {
 }
 
 .hulot-block {
-  padding-top: 60px;
+  padding-top: 57px;
   padding-bottom: 50px;
   width: auto;
   position: relative;
@@ -321,11 +326,201 @@ header {
 
 .main-bottom-right-block {
   width: 534px;
-  height: 600px;
+  height: 599px;
   background-image: url(images/RedBikeRight.png);
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.where-we-are {
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+
+.content-area {
+  margin: 110px 300px 65px 300px;
+}
+
+.twitter-icon {
+  width: 32px;
+  height: 27px;
+  background-image: url(images/TwitterIcon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+.were-title {
+  color: #5c5d5e;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  padding: 35px 0 25px;
+}
+
+.lightgray {
+  color: #8d9092;
+}
+
+.were-text {
+  display: block;
+  margin: 0 auto;
+  color: #8d9092;
+  font-size: 24px;
+  text-align: center;
+}
+
+.circles {
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}
+
+.circle {
+  display: block;
+  list-style-type: none;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #a9afb3;
+  border-radius: 10px;
+}
+
+.circle:first-child {
+  background-color: #a9afb3;
+}
+
+.shop-block {
+  display: flex;
+}
+
+.shop-block-left {
+  width: 533px;
+}
+
+.shop-block-left-top {
+  display: flex;
+  min-height: 267px;
+}
+
+.shop-block-left-top-bike01 {
+  width: 267px;
+  background-image: url(images/ShopBike01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.shop-block-left-top-bike02 {
+  width: 267px;
+  background-image: url(images/ShopBike02.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.shop-block-left-bottom {
+  min-height: 267px;
+  background-image: url(images/ShopBike03.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.shop-block-middle {
+  display: flex;
+  width: 536px;
+}
+
+.shop-block-middle-left {
+  width: 267px;
+  height: 534px;
+  background-image: url(images/ShopBike04.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.shop-block-middle-right {
+  width: 269px;
+  height: 534px;
+  background-image: url(images/ShopBike05.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.shop-block-right {
+  width: 533px;
+}
+
+.shop-block-right-top {
+  position: relative;
+  width: 533px;
+  height: 267px;
+  background-image: url(images/ShopBike06.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.shop-block-right-top-green-cover {
+  width: 533px;
+  height: 267px;
+  background-image: url(images/GreenShopBlock.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+.shop-block-right-top-green-cover:hover {
+  opacity: .8;
+}
+
+.shop-link {
+  display: block;
+  width: 533px;
+  height: 267px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 325px;
+  background-image: url(images/ShopIcon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.shop-block-right-bottom {
+  display: flex;
+}
+
+.shop-block-right-bottom-bike07 {
+  width: 267px;
+  height: 267px;
+  background-image: url(images/ShopBike07.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.shop-block-right-bottom-bike08 {
+  width: 267px;
+  height: 267px;
+  background-image: url(images/ShopBike08.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.discover-block {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  align-items: center;
+}
+
+.discover-shop {
+  display: block;
+  color: white;
+  border-color: white;
+  background-color: black;
+  font-size: 14px;
+  width: 300px;
+  height: 50px;
 }
