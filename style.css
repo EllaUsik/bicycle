@@ -581,3 +581,84 @@ header {
   color: white;
   background-color: #64c29e;
 }
+
+footer {
+  background-color: #f7f7f7;
+}
+
+.footer-content-space {
+  padding: 90px 250px;
+}
+
+.footer-positioning {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adress {
+  font-size: 14px;
+  color: #848789;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.new-york {
+  font-size: 16px;
+  color: #848789;
+}
+
+.social-networks {
+  display: flex;
+  justify-content: space-between;
+  width: 135px;
+}
+
+.social-network {
+  width: 35px;
+  height: 34px;
+  list-style-type: none;
+}
+
+.social-network:hover {
+  opacity: .8;
+}
+
+.social-network-link {
+  display: block;
+  width: 35px;
+  height: 34px;
+}
+
+.twitter {
+  background-image: url(images/Twitter.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fb {
+  background-image: url(images/FB.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pinterest {
+  background-image: url(images/Pinterest.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.handcrafted-by {
+  width: 150px;
+  height: 40px;
+  background-image: url(images/Yebo.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.handcrafted-by-yebo {
+  line-height: 40px;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #848789;
+  font-style: italic;
+}
