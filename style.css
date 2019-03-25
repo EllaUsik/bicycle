@@ -1,0 +1,664 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.clearfix {
+  clear: both;
+}
+
+.wrapper {
+  width: 1600px;
+  font-family: sans-serif;
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-image: url(images/HeaderBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-navigation {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 800px;
+}
+
+.navigation-menu {
+  padding-top: 30px;
+}
+
+.navigation-menu-links {
+  display: inline-block;
+  font-size: 13px;
+  padding-right: 20px;
+  padding-left: 20px;
+  line-height: 85px;
+  vertical-align: middle;
+}
+
+.navigation-menu-link {
+  text-decoration: none;
+  color: #4d4959;
+}
+
+.navigation-menu-link:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  width: 94px;
+  height: 85px;
+  background-image: url(images/Logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 10px;
+  margin-right: 10px
+}
+
+.home-page {
+  display: block;
+  width: 94px;
+  height: 85px;
+}
+
+.new-generation {
+  background-color: #f7f7f7;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.new-generation-icon {
+  width: 50px;
+  height: 42px;
+  background-image: url(images/NewGenerationIcon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.new-generation-title, .new-generation-text {
+  display: block;
+  color: #96999a;
+  font-size: 18px;
+  padding-top: 35px;
+  margin: 0 auto;
+  width: 1060px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.new-generation-title {
+  color: #353738;
+}
+
+.main-top-block {
+  display: flex;
+}
+
+.main-top-left-block {
+  width: 1067px;
+  height: 600px;
+  background-image: url(images/RedWheel.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bike-logo {
+  width: 113px;
+  height: 118px;
+  background-image: url(images/BicycleCompanyLogo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.vintage-oliva {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  width: auto;
+  position: relative;
+}
+
+.vintage-oliva-icon {
+  background-image: url(images/VintageOlivaIcon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 41px;
+  height: 29px;
+  margin: 0 auto;
+}
+
+.vintage-oliva-title {
+  font-size: 18px;
+  color: #353738;
+  text-align: center;
+  padding-bottom: 26px;
+  padding-top: 27px;
+}
+
+.vintage-oliva-text {
+  font-size: 16px;
+  color: #96999a;
+  width: 400px;
+  text-align: justify;
+  margin: 0 auto;
+  line-height: 25px;
+}
+
+.vintage-oliva-line {
+  margin: 35px auto 0;
+  width: 50px;
+  color:#96999a;
+}
+
+.vintage-oliva-bike {
+  width: 533px;
+  height: 200px;
+  background-image: url(images/OlivaBike.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.angle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  transform: rotate(-45deg);
+  right: 246px;
+  bottom: -8px;
+}
+
+.main-middle-block {
+  display: flex;
+}
+
+.main-middle-left-block {
+  position: relative;
+  width: 533px;
+}
+
+.boriosa-block {
+  padding-top: 57px;
+  padding-bottom: 50px;
+  width: auto;
+  position: relative;
+}
+
+.boriosa-icon {
+  background-image: url(images/BoriosaIcon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+}
+
+.boriosa-title {
+  font-size: 18px;
+  color: #353738;
+  text-align: center;
+  padding-bottom: 26px;
+  padding-top: 27px;
+}
+
+.boriosa-text {
+  font-size: 16px;
+  color: #96999a;
+  width: 400px;
+  text-align: justify;
+  margin: 0 auto;
+  line-height: 25px;
+}
+
+.boriosa-line {
+  margin: 35px auto 0;
+  width: 50px;
+  color:#96999a;
+}
+
+.boriosa-bike {
+  height: 200px;
+  background-image: url(images/BoriosaBike.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 0;
+}
+
+.main-middle-right-block {
+  width: 1067px;
+  height: 600px;
+  background-image: url(images/BikeNearRiver.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vintage-bike-logo {
+  width: 177px;
+  height: 152px;
+  background-image: url(images/VintageBikeLogo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main-bottom-block {
+  display: flex;
+}
+
+.block-1 {
+  display: flex;
+}
+
+.main-bottom-left-block {
+  width: 532px;
+  height: 600px;
+  background-image: url(images/RedBikeLeft.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-bikes-logo {
+  width: 208px;
+  height: 67px;
+  background-image: url(images/RedBikeLogo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hulot-block {
+  padding-top: 57px;
+  padding-bottom: 50px;
+  width: auto;
+  position: relative;
+}
+
+.hulot-icon {
+  background-image: url(images/HulotIcon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+}
+
+.hulot-title {
+  font-size: 18px;
+  color: #353738;
+  text-align: center;
+  padding-bottom: 26px;
+  padding-top: 27px;
+}
+
+.hulot-text {
+  font-size: 16px;
+  color: #96999a;
+  width: 400px;
+  text-align: justify;
+  margin: 0 auto;
+  line-height: 25px;
+}
+
+.hulot-line {
+  margin: 35px auto 0;
+  width: 50px;
+  color:#96999a;
+}
+
+.hulot-bike {
+  width: 532px;
+  height: 200px;
+  background-image: url(images/HulotBike.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.main-bottom-right-block {
+  width: 534px;
+  height: 599px;
+  background-image: url(images/RedBikeRight.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.where-we-are {
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+
+.content-area {
+  margin: 110px 300px 65px 300px;
+}
+
+.twitter-icon {
+  width: 32px;
+  height: 27px;
+  background-image: url(images/TwitterIcon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+.were-title {
+  color: #5c5d5e;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  padding: 35px 0 25px;
+}
+
+.lightgray {
+  color: #8d9092;
+}
+
+.were-text {
+  display: block;
+  margin: 0 auto;
+  color: #8d9092;
+  font-size: 24px;
+  text-align: center;
+}
+
+.circles {
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}
+
+.circle {
+  display: block;
+  list-style-type: none;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #a9afb3;
+  border-radius: 10px;
+}
+
+.circle:first-child {
+  background-color: #a9afb3;
+}
+
+.shop-block {
+  display: flex;
+}
+
+.shop-block-left {
+  width: 533px;
+}
+
+.shop-block-left-top {
+  display: flex;
+  min-height: 267px;
+}
+
+.shop-block-left-top-bike01 {
+  width: 267px;
+  background-image: url(images/ShopBike01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.shop-block-left-top-bike02 {
+  width: 267px;
+  background-image: url(images/ShopBike02.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.shop-block-left-bottom {
+  min-height: 267px;
+  background-image: url(images/ShopBike03.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.shop-block-middle {
+  display: flex;
+  width: 536px;
+}
+
+.shop-block-middle-left {
+  width: 267px;
+  height: 534px;
+  background-image: url(images/ShopBike04.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.shop-block-middle-right {
+  width: 269px;
+  height: 534px;
+  background-image: url(images/ShopBike05.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.shop-block-right {
+  width: 533px;
+}
+
+.shop-block-right-top {
+  position: relative;
+  width: 533px;
+  height: 267px;
+  background-image: url(images/ShopBike06.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.shop-block-right-top-green-cover {
+  width: 533px;
+  height: 267px;
+  background-image: url(images/GreenShopBlock.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+.shop-block-right-top-green-cover:hover {
+  opacity: .8;
+}
+
+.shop-link {
+  display: block;
+  width: 533px;
+  height: 267px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 325px;
+  background-image: url(images/ShopIcon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.shop-block-right-bottom {
+  display: flex;
+}
+
+.shop-block-right-bottom-bike07 {
+  width: 267px;
+  height: 267px;
+  background-image: url(images/ShopBike07.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.shop-block-right-bottom-bike08 {
+  width: 267px;
+  height: 267px;
+  background-image: url(images/ShopBike08.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.discover-block {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  align-items: center;
+}
+
+.discover-shop {
+  display: block;
+  color: white;
+  border-color: white;
+  background-color: black;
+  font-size: 14px;
+  width: 300px;
+  height: 50px;
+}
+.conection {
+  display: flex;
+  justify-content: center;
+}
+
+.conection-content-space {
+  margin: 100px auto;
+}
+
+.conection-logo {
+  width: 94px;
+  height: 85px;
+  background-image: url(images/LogoConection.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+.stay-on {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  color: #8e9193;
+  font-size: 24px;
+  padding: 40px 0;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  width: 535px;
+}
+.form-for-content {
+  width: 400px;
+  height: 67px;
+}
+
+.email:focus {
+  outline: none;
+}
+
+.email {
+  font-size: 20px;
+  width: 360px;
+  height: 63px;
+  padding: 0 20px;
+  color: #cdcdcd;
+  font-style: italic;
+}
+
+.go {
+  font-size: 24px;
+  width: 125px;
+  height: 67px;
+  color: white;
+  background-color: #64c29e;
+}
+
+footer {
+  background-color: #f7f7f7;
+}
+
+.footer-content-space {
+  padding: 90px 250px;
+}
+
+.footer-positioning {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adress {
+  font-size: 14px;
+  color: #848789;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.new-york {
+  font-size: 16px;
+  color: #848789;
+}
+
+.social-networks {
+  display: flex;
+  justify-content: space-between;
+  width: 135px;
+}
+
+.social-network {
+  width: 35px;
+  height: 34px;
+  list-style-type: none;
+}
+
+.social-network:hover {
+  opacity: .8;
+}
+
+.social-network-link {
+  display: block;
+  width: 35px;
+  height: 34px;
+}
+
+.twitter {
+  background-image: url(images/Twitter.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fb {
+  background-image: url(images/FB.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pinterest {
+  background-image: url(images/Pinterest.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.handcrafted-by {
+  width: 150px;
+  height: 40px;
+  background-image: url(images/Yebo.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.handcrafted-by-yebo {
+  line-height: 40px;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #848789;
+  font-style: italic;
+}
